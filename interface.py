@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from utils import get_predicted_price
+from utils import MedicalInsurence
 app = Flask(__name__)
 
 @app.route('/')
