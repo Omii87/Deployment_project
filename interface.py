@@ -23,4 +23,5 @@ def predict_charges():
     return jsonify({"Result":f"Predicted Medical Charges == {pred_price}"})
  
 if __name__ == "__main__":
-    app.run()
+    app.run(host = "0.0.0.0",config.PORT_NUMBER)
+    
